@@ -137,7 +137,6 @@ return (
                   name="name"
                   label="First Name"
                   value={name}
-                  required
                   autoFocus
                />
             </Grid>
@@ -150,7 +149,6 @@ return (
                   name="email"
                   label="Email Address"
                   value={email}
-                  required
                />
             </Grid>
             <Grid item xs={12}>
@@ -164,7 +162,6 @@ return (
                   value={password}
                   placeholder="XXXXXXX"
                   minLength={7}
-                  required
                />
             </Grid>
             </Grid>
